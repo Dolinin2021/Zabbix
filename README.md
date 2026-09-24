@@ -20,8 +20,8 @@
 ```
 
 Скриншот авторизации в админке
-![Authorization](<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/ae5a0ce9-073d-424f-97fe-d48150cb71b3" />
-)
+`![Authorization](<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/c4991a68-e8a7-4f0e-a103-cc656feb5704" />
+)`
 
 
 ---
