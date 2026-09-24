@@ -2,7 +2,6 @@
 
 ### Задание 1
 Скриншот авторизации в админке
-
 <img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/07bfaeb1-45a5-4e4b-a698-6da122a3bc20" />
 
 Установите и сконфигурируйте Zabbix для выбранной платформы \
@@ -12,8 +11,8 @@ a. Зайдите под пользователем root \
 
 b. Установите репозиторий Zabbix \
 `wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
-`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` 
-\ `apt update`
+`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
+`apt update`
 
 c. Установите Zabbix сервер, веб-интерфейс и агент
 `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
