@@ -6,13 +6,13 @@
 <img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/07bfaeb1-45a5-4e4b-a698-6da122a3bc20" />
 
 Установите и сконфигурируйте Zabbix для выбранной платформы \
-a. Зайдите под пользователем root
+a. Зайдите под пользователем root \
 Запустите новый сеанс оболочки с правами root.
 `$ sudo -s`
 
-b. Установите репозиторий Zabbix
-`wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb`\
-`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb`\ 
+b. Установите репозиторий Zabbix \
+`wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
+`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` \ 
 `apt update`
 
 c. Установите Zabbix сервер, веб-интерфейс и агент
@@ -21,7 +21,7 @@ c. Установите Zabbix сервер, веб-интерфейс и аге
 d. Создайте базу данных
 Установите и запустите сервер базы данных.
 Выполните следующие команды на хосте, где будет располагаться база данных.
-`sudo -u postgres createuser --pwprompt zabbix`\
+`sudo -u postgres createuser --pwprompt zabbix` \
 `sudo -u postgres createdb -O zabbix zabbix`
 
 На хосте Zabbix сервера импортируйте начальную схему и данные. Вам будет предложено ввести недавно созданный пароль.
@@ -33,7 +33,7 @@ DBPassword=password
 
 f. Запустите процессы Zabbix сервера и агента
 Запустите процессы Zabbix сервера и агента и настройте их запуск при загрузке ОС.
-`systemctl restart zabbix-server zabbix-agent apache2`\
+`systemctl restart zabbix-server zabbix-agent apache2` \
 `systemctl enable zabbix-server zabbix-agent apache2`
 
 ---
