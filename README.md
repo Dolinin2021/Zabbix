@@ -12,8 +12,8 @@ a. Зайдите под пользователем root \
 
 b. Установите репозиторий Zabbix \
 `wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
-`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` \ 
-`apt update`
+`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` 
+\ `apt update`
 
 c. Установите Zabbix сервер, веб-интерфейс и агент
 `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
