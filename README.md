@@ -2,6 +2,7 @@
 
 ### Задание 1
 Скриншот авторизации в админке
+
 <img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/07bfaeb1-45a5-4e4b-a698-6da122a3bc20" />
 ---
 
