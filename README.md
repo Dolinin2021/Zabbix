@@ -17,7 +17,7 @@ b. Установите репозиторий Zabbix \
 c. Установите Zabbix сервер, веб-интерфейс и агент
 `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
 
-d. Создайте базу данных
+d. Создайте базу данных \
 Установите и запустите сервер базы данных.
 Выполните следующие команды на хосте, где будет располагаться база данных.
 `sudo -u postgres createuser --pwprompt zabbix` \
