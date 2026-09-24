@@ -18,12 +18,12 @@ c. Установите Zabbix сервер, веб-интерфейс и аге
 `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
 
 d. Создайте базу данных \
-Установите и запустите сервер базы данных.
+Установите и запустите сервер базы данных. \
 Выполните следующие команды на хосте, где будет располагаться база данных.
 `sudo -u postgres createuser --pwprompt zabbix` \
 `sudo -u postgres createdb -O zabbix zabbix`
 
-На хосте Zabbix сервера импортируйте начальную схему и данные. Вам будет предложено ввести недавно созданный пароль.
+На хосте Zabbix сервера импортируйте начальную схему и данные. Вам будет предложено ввести недавно созданный пароль. \
 `zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`
 
 e. Настройте базу данных для Zabbix сервера
