@@ -14,7 +14,7 @@ b. Установите репозиторий Zabbix \
 `dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
 `apt update`
 
-c. Установите Zabbix сервер, веб-интерфейс и агент
+c. Установите Zabbix сервер, веб-интерфейс и агент \
 `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
 
 d. Создайте базу данных \
