@@ -41,17 +41,17 @@ f. Запустите процессы Zabbix сервера и агента
 ### Задание 2
 Скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
 
-<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/79c45125-d20f-4f4c-903d-4c59b56ad744" />
+<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/79c45125-d20f-4f4c-903d-4c59b56ad744" /> \
 
 
 Скриншот лога zabbix agent, где видно, что он работает с сервером
 
-<img width="920" height="355" alt="изображение" src="https://github.com/user-attachments/assets/dba98187-5b48-4ed9-8d36-715615624c34" />
+<img width="920" height="355" alt="изображение" src="https://github.com/user-attachments/assets/dba98187-5b48-4ed9-8d36-715615624c34" /> \
 
 
 Скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные
 
-<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/b8beeb66-0185-4423-90cc-22a606158bd5" />
+<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/b8beeb66-0185-4423-90cc-22a606158bd5" /> \
 
 
 a. Зайдите под пользователем root \
