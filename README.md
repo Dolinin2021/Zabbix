@@ -53,3 +53,20 @@ f. Запустите процессы Zabbix сервера и агента
 
 <img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/b8beeb66-0185-4423-90cc-22a606158bd5" />
 
+
+a. Зайдите под пользователем root \
+Запустите новый сеанс оболочки с правами root. \
+`$ sudo -s`
+
+b. Установите репозиторий Zabbix \
+`wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
+`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb` \
+`apt update` \
+
+c. Установите Zabbix агент \
+`apt install zabbix-agent` \
+
+d. Запустите процесс Zabbix агента
+Запустите процесс Zabbix агента и настройте его запуск при загрузке ОС.
+`systemctl restart zabbix-agent
+systemctl enable zabbix-agent`
