@@ -3,7 +3,7 @@
 ### Задание 1
 Скриншот авторизации в админке
 
-<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/f71aafe6-2d5e-4ba4-8b8d-a19985846ade" />
+<img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/2e0c3adf-cb38-4e42-bbae-813458e03c1f" />
 
 Установите и сконфигурируйте Zabbix для выбранной платформы \
 a. Зайдите под пользователем root \
