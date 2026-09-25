@@ -80,4 +80,4 @@ f. Запуск и добавление агента в автозагрузку
 `sudo systemctl enable zabbix-agent`
 
 g. Просмотр логов для проверки работоспособности \
-`sudo tail -n 50 /var/log/zabbix/zabbix_agentd.log`
+`sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log`
