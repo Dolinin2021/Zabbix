@@ -46,7 +46,7 @@ f. Запустите процессы Zabbix сервера и агента
 
 Скриншот лога zabbix agent, где видно, что он работает с сервером
 
-<img width="920" height="355" alt="изображение" src="https://github.com/user-attachments/assets/dba98187-5b48-4ed9-8d36-715615624c34" />
+<img width="886" height="353" alt="изображение" src="https://github.com/user-attachments/assets/352d5022-e629-42ca-a8fb-8833d0d6db40" />
 
 
 Скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные
