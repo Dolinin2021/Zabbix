@@ -32,7 +32,7 @@ e. Настройте базу данных для Zabbix сервера
 DBPassword=password
 
 f. Запустите процессы Zabbix сервера и агента
-Запустите процессы Zabbix сервера и агента и настройте их запуск при загрузке ОС.
+Запустите процессы Zabbix сервера и агента и настройте их запуск при загрузке ОС. \
 `systemctl restart zabbix-server zabbix-agent apache2` \
 `systemctl enable zabbix-server zabbix-agent apache2`
 
