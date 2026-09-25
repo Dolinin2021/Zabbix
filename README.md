@@ -67,6 +67,6 @@ c. Установите Zabbix агент \
 `apt install zabbix-agent`
 
 d. Запустите процесс Zabbix агента
-Запустите процесс Zabbix агента и настройте его запуск при загрузке ОС.
+Запустите процесс Zabbix агента и настройте его запуск при загрузке ОС. \
 `systemctl restart zabbix-agent` \
 `systemctl enable zabbix-agent`
