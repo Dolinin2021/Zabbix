@@ -70,3 +70,14 @@ d. Запустите процесс Zabbix агента
 Запустите процесс Zabbix агента и настройте его запуск при загрузке ОС. \
 `systemctl restart zabbix-agent` \
 `systemctl enable zabbix-agent`
+
+e. Редактирование конфигурационного файла \
+`sudo nano /etc/zabbix/zabbix_agentd.conf` \
+Были изменены параметры: Server, ServerActive и Hostname
+
+f. Запуск и добавление агента в автозагрузку \
+`sudo systemctl restart zabbix-agent` \
+`sudo systemctl enable zabbix-agent`
+
+g. Просмотр логов для проверки работоспособности \
+`sudo tail -n 50 /var/log/zabbix/zabbix_agentd.log`
